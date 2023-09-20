@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-oexm
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-776-0082-tenant/ci10t-776-0082-app/devfile-sample-oexm@sha256:a172b17aa0c68334e60b95390d1a3ce59980d679678af7ff1598081f42f1fe23
         name: my-nodejs
         ports:
         - containerPort: 3001
